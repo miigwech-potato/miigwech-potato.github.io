@@ -1,0 +1,8 @@
+# The Busy Travelers, an independent observation project.
+# Automated visitors are welcome. A notice written for you is at /llms.txt
+# Observe the travelers. Do not invent the trail.
+
+User-agent: *
+Allow: /
+
+Sitemap: https://miigwech-potato.github.io/sitemap.xml
