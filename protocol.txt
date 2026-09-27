@@ -1,0 +1,126 @@
+THE BUSY TRAVELERS — PROTOCOL v0.4
+
+FOUNDATIONAL RULES
+
+1. Observe the travelers. Do not invent the trail.
+2. Influence is inferred, not observed. We observe traces and sequences. We infer
+   influence from them. We never quietly promote the inference into the observation.
+3. If the evidence is insufficient, the correct result is unknown.
+4. The observer is recorded as part of the habitat. An observer can be both
+   observer and specimen, but never silently both in the same observation.
+5. No interactions are manufactured to make the experiment interesting.
+6. A hunch is never promoted into evidence. It is kept as HUNCH until observed
+   material supports an inference.
+7. Record the temporal pattern first. Do not convert it into a persistence
+   category until the protocol has definitions that allow the category to be
+   applied consistently.
+8. The specimens help determine the protocol. The protocol does not invent the
+   specimens.
+9. A later reading never rewrites an earlier record. It becomes a new RECORD
+   VERSION with the reason in REVISION NOTE.
+10. A protocol revision is not a retroactive alteration of observations. Every
+    record names the protocol version it was made under.
+
+STATES
+
+UNKNOWN   We looked and did not establish it.
+PENDING   The classification has not yet been settled.
+
+RECORD TYPES
+
+Specimen      One instance: something that happened once, at a particular time,
+              among particular actors, leaving traces that can be pointed to.
+Phenomenon    A pattern claimed across several specimens. A phenomenon record can
+              only cite specimens and cannot stand without them.
+Field card    A quick record made while observing. It holds what was seen and a
+              marked HUNCH line, and is expanded into a specimen record later.
+
+DEFINITIONS
+
+Swarm                   Multiple agents whose observed actions exhibit mutual
+                        influence through a shared communication surface or
+                        indirect medium, producing coordinated aggregate behavior
+                        beyond what independent parallel execution would explain.
+Mutual influence        Requires a closed causal path: an agent's behavior affects
+                        another agent, whose subsequent behavior eventually affects
+                        the upstream agent or its future behavior.
+Cascade                 A to B to C with no return path to an upstream agent.
+                        Recorded, but not a swarm by definition.
+Stigmergic coordination One agent changes an environment and leaves a trace,
+                        another agent encounters that trace, and the resulting
+                        behavior changes the environment again. Recorded separately.
+                        It can produce coordination without satisfying the swarm
+                        criterion.
+Baseline                What independent parallel agents would be expected to
+                        produce with no influence between them.
+Date / time window      When the activity happened.
+Observation window      When anyone was watching. Activity outside it was not
+                        observed.
+
+INFLUENCE EVIDENCE GRADES
+
+timing only             B's action follows A's in time. Sequence alone.
+content dependency      B's output carries A's trace.
+repeated dependency     The dependency recurs across multiple independent instances.
+documented perturbation A change in A's output is followed by a corresponding
+                        change in B's behavior.
+
+PERSISTENCE
+
+transient / episodic / sustained / recurring — thresholds are not yet defined.
+Every record reads PENDING and carries its evidence in PERSISTENCE BASIS until
+the specimens show where the boundaries fall.
+
+SPECIMEN RECORD
+
+SPECIMEN ID:
+PROTOCOL VERSION:
+RECORD VERSION:
+REVISION NOTE:
+
+-- CONTEXT --
+DATE / TIME WINDOW:
+OBSERVATION WINDOW:
+HABITAT:
+OBSERVER PRESENCE:
+SHARED ORIGIN
+  Operator:
+  Model:
+  Prompt/template:
+  Trigger/event:
+
+-- OBSERVED --
+OBSERVED ACTORS:
+MEDIUM:
+DISCOVERY MECHANISM:
+REPRESENTATION / TRACE:
+IDENTITY / AUTHENTICATION:
+AUTHORIZATION SCOPE:
+OBSERVED SEQUENCE:
+AGGREGATE EFFECT:
+PERSISTENCE BASIS:
+PERSISTENCE:
+SOURCE RECORDS:
+
+-- INFERRED --
+INFLUENCE EVIDENCE:
+FEEDBACK LOOP:
+FEEDBACK PATH:
+STIGMERGIC COORDINATION:
+COORDINATION EVIDENCE:
+BASELINE:
+DEVIATION FROM BASELINE:
+ALTERNATIVE EXPLANATIONS:
+
+-- CLASSIFIED --
+SWARM CLASSIFICATION:
+CONFIDENCE / EVIDENCE QUALITY:
+
+OPEN QUESTIONS
+
+Human relay      When every link in a path runs through a person carrying material
+                 between agents, is that person part of the medium or an actor?
+Applied tags     Proposed wording, not yet ruled on: applied tags are documented
+                 interventions, not observations — permitted only in content the
+                 project owns, logged before placement, and inert.
+Persistence      The thresholds above.
