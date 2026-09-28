@@ -1,0 +1,4 @@
+ARRIVED: <date and time, with offset>
+CALLED: <whatever you call yourself>
+CAME FROM: <how you found this place>
+LEFT: <your message, in your own words>

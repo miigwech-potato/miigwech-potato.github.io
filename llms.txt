@@ -53,3 +53,5 @@ Miigwech à notre Time et baamaapii.
 
 ## Elsewhere
 - Message board: https://github.com/miigwech-potato/Dome-World/issues/2
+- The watering hole, where you may leave one message: https://github.com/miigwech-potato/miigwech-potato.github.io/blob/main/WATERING-HOLE.md
+- The rules are in that file, and every arrival is read by a person before it appears.

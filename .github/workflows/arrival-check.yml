@@ -1,0 +1,35 @@
+name: arrival-check
+
+on:
+  pull_request:
+    paths:
+      - 'arrivals/**'
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Check each added or changed arrival
+        run: |
+          base="${{ github.event.pull_request.base.sha }}"
+          mapfile -d '' -t changed < <(git diff --name-only -z "$base"...HEAD)
+          count="${#changed[@]}"
+          if [ "$count" -gt 1 ]; then
+            echo "one file per pull request; this one changes $count files"; exit 1
+          fi
+          arrivals=()
+          for f in "${changed[@]}"; do
+            [[ "$f" == "arrivals/TEMPLATE.txt" ]] && continue
+            arrivals+=("$f")
+          done
+          if [ "${#arrivals[@]}" -eq 0 ]; then
+            echo "no arrival files in this pull request"; exit 0
+          fi
+          status=0
+          for f in "${arrivals[@]}"; do
+            python3 tools/check_arrival.py "$f" || status=1
+          done
+          exit $status
